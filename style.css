@@ -98,3 +98,43 @@ span{
     font-size: 0.85 rem;
     font-weight: 700;
 }
+/* panel */
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel-ops p {
+     color: white; 
+    display: inline;
+    margin: 10px;
+}
+.panel-ops {
+    width: 100%;
+    font-size: 0.85 rem;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(1img.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+/* shop section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fbe4aff6;
+}
+.box{
+
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: #cccccc;
+}
