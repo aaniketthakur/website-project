@@ -7,20 +7,55 @@
     height: 60px;
     background-color: #02101f;
     color: white;
+    display: flex;
+    align-items: center;
 }
 .nav-logo{
     height: 50px;
-    width: 120px;
+    width: 126px;
 }
 .logo {
     background-image: url(amazon\ logo.png);
     background-size: cover;
     height: 50px;
-    width: 120px;
+    width: 126px;
 }
 .border {
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
 }
 .border:hover{
-    border: 2px solid white;
+    border: 1.5px solid white;
+}
+
+
+/** box 2**/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+   font-size: 1rem;
+margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+}
+
+/* box 3 */
+
+.nav-search {
+    display: flex;
+    background-color: yellow;
+    width: 620px;
+    height: 40px;
+    border: 3px;
+
+}
+.search-select{
+    background-color:#f3f3f3 ;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
 }
